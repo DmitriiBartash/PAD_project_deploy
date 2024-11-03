@@ -30,3 +30,35 @@ D:\Programms\4_curs_1_semestr\DIPLOM\2nd microservice CalculatorBTU\CalculatorBT
 D:\Programms\4_curs_1_semestr\DIPLOM\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.pdb
 D:\Programms\4_curs_1_semestr\DIPLOM\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.genruntimeconfig.cache
 D:\Programms\4_curs_1_semestr\DIPLOM\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\ref\CalculatorBTU.dll
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\appsettings.Development.json
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\appsettings.json
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\CalculatorBTU.exe
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\CalculatorBTU.deps.json
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\CalculatorBTU.runtimeconfig.json
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\CalculatorBTU.dll
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\CalculatorBTU.pdb
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.csproj.AssemblyReference.cache
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.AssemblyInfoInputs.cache
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.AssemblyInfo.cs
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.csproj.CoreCompileInputs.cache
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.MvcApplicationPartsAssemblyInfo.cs
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.MvcApplicationPartsAssemblyInfo.cache
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\staticwebassets.build.json
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\staticwebassets.development.json
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\staticwebassets\msbuild.CalculatorBTU.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\staticwebassets\msbuild.build.CalculatorBTU.props
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.CalculatorBTU.props
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.CalculatorBTU.props
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\scopedcss\bundle\CalculatorBTU.styles.css
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\Calculat.43BEB242.Up2Date
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.dll
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\refint\CalculatorBTU.dll
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.pdb
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\CalculatorBTU.genruntimeconfig.cache
+D:\Temp download\PAD_project_1try-main\2nd microservice CalculatorBTU\CalculatorBTU\CalculatorBTU\obj\Debug\net6.0\ref\CalculatorBTU.dll

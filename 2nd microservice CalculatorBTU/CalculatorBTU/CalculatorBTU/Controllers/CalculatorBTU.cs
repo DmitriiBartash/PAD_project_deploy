@@ -145,6 +145,12 @@ namespace BTUService.Controllers
                 RecommendedRangeBTU = new { Lower = recommendedLowerBTU, Upper = recommendedUpperBTU }
             });
         }
+
+        [HttpGet]
+        public IActionResult Test()
+        {
+            return Ok();
+        }
     }
 
     public class BTURequestModel

@@ -43,15 +43,39 @@ function clearForm() {
 
 function calculateBTU() {
     const formData = new FormData(document.getElementById('btuCalculatorForm'));
+    console.log(formData);
     const jsonData = {};
 
     // Преобразуем FormData в JSON
     formData.forEach((value, key) => {
-        jsonData[key] = value;
+        let newKey = key.replace("RequestModel.", "");
+        let newValue;
+        console.log(key, ":", value);
+        if (newKey == "PeopleCount" || newKey == "NumberOfComputers" || newKey == "NumberOfTVs" || newKey == "RoomSize" || newKey == "CeilingHeight" || newKey == "OtherAppliancesKWattage") {
+            newValue = Number(value);
+        }
+        else if (newKey == "HasVentilation" || newKey == "Guaranteed20Degrees" || newKey == "IsTopFloor" || newKey == "HasLargeWindow") {
+            newValue = Boolean(value);
+        }
+        else if (newKey == "AirExchangeRate" || newKey == "WindowArea") {
+            try {
+                newValue = Number(value);
+            }
+            catch (error) {
+                newValue = value;
+                console.error("An error occurred:", error);
+            }
+        }
+        else {
+            newValue = value;
+        }
+
+        jsonData[newKey] = newValue;
     });
+    console.log("Отправляемые данные:", jsonData);
 
     // Проверка обязательных полей
-    if (!jsonData['RequestModel.SizeUnit'] || !jsonData['RequestModel.HeightUnit'] || !jsonData['RequestModel.SunExposure']) {
+    if (!jsonData['SizeUnit'] || !jsonData['HeightUnit'] || !jsonData['SunExposure']) {
         console.error("Обязательные поля не заполнены:", jsonData);
         alert("Пожалуйста, заполните все обязательные поля."); // Предупреждение пользователю
         return; // Прерываем выполнение функции

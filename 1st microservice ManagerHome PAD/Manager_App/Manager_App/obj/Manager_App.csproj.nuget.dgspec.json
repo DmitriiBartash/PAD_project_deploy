@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programms\\4_curs_1_semestr\\DIPLOM\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Manager_App.csproj": {}
+    "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Manager_App.csproj": {}
   },
   "projects": {
-    "D:\\Programms\\4_curs_1_semestr\\DIPLOM\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Manager_App.csproj": {
+    "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Manager_App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programms\\4_curs_1_semestr\\DIPLOM\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Manager_App.csproj",
+        "projectUniqueName": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Manager_App.csproj",
         "projectName": "Manager_App",
-        "projectPath": "D:\\Programms\\4_curs_1_semestr\\DIPLOM\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Manager_App.csproj",
-        "packagesPath": "C:\\Users\\Dimon Prorock\\.nuget\\packages\\",
-        "outputPath": "D:\\Programms\\4_curs_1_semestr\\DIPLOM\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\obj\\",
+        "projectPath": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Manager_App.csproj",
+        "packagesPath": "C:\\Users\\djuls\\.nuget\\packages\\",
+        "outputPath": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Dimon Prorock\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\djuls\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -27,7 +27,6 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\7.0.304\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -40,6 +39,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -53,6 +57,10 @@
             "BCrypt.Net-Next": {
               "target": "Package",
               "version": "[4.0.3, )"
+            },
+            "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": {
+              "target": "Package",
+              "version": "[1.20.1, )"
             },
             "MongoDB.Driver": {
               "target": "Package",
@@ -74,6 +82,24 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[6.0.32, 6.0.32]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -82,7 +108,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -51,44 +51,46 @@ namespace Manager_App.Controllers
             var jsonContent = JsonConvert.SerializeObject(requestModel);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
-            try
-            {
-                // Отправляем POST-запрос на микросервис
-                var response = await client.PostAsync(url, content);
 
-                if (response.IsSuccessStatusCode)
-                {
-                    // Десериализуем ответ в модель BTUResponseModel
-                    var responseString = await response.Content.ReadAsStringAsync();
-                    var responseModel = JsonConvert.DeserializeObject<BTUResponseModel>(responseString);
+            return Ok();
+            //try
+            //{
+            //    // Отправляем POST-запрос на микросервис
+            //    var response = await client.PostAsync(url, content);
 
-                    var result = new
-                    {
-                        CalculatedPowerBTU = responseModel.CalculatedPowerBTU,
-                        RecommendedRangeBTU = new
-                        {
-                            Lower = responseModel.RecommendedRangeBTU.Lower,
-                            Upper = responseModel.RecommendedRangeBTU.Upper
-                        },
-                        CalculatedPowerKW = responseModel.CalculatedPowerKW,
-                        RecommendedRangeKW = new
-                        {
-                            Lower = responseModel.RecommendedRangeKW.Lower,
-                            Upper = responseModel.RecommendedRangeKW.Upper
-                        }
-                    };
+            //    if (response.IsSuccessStatusCode)
+            //    {
+            //        // Десериализуем ответ в модель BTUResponseModel
+            //        var responseString = await response.Content.ReadAsStringAsync();
+            //        var responseModel = JsonConvert.DeserializeObject<BTUResponseModel>(responseString);
 
-                    return Json(result); // Возвращаем результат в формате JSON
-                }
-                else
-                {
-                    return StatusCode((int)response.StatusCode, "Ошибка при расчете BTU. Пожалуйста, попробуйте снова.");
-                }
-            }
-            catch (HttpRequestException ex)
-            {
-                return StatusCode(500, "Ошибка при отправке запроса. Пожалуйста, проверьте соединение и попробуйте снова.");
-            }
+            //        var result = new
+            //        {
+            //            CalculatedPowerBTU = responseModel.CalculatedPowerBTU,
+            //            RecommendedRangeBTU = new
+            //            {
+            //                Lower = responseModel.RecommendedRangeBTU.Lower,
+            //                Upper = responseModel.RecommendedRangeBTU.Upper
+            //            },
+            //            CalculatedPowerKW = responseModel.CalculatedPowerKW,
+            //            RecommendedRangeKW = new
+            //            {
+            //                Lower = responseModel.RecommendedRangeKW.Lower,
+            //                Upper = responseModel.RecommendedRangeKW.Upper
+            //            }
+            //        };
+
+            //        return Json(result); // Возвращаем результат в формате JSON
+            //    }
+            //    else
+            //    {
+            //        return StatusCode((int)response.StatusCode, "Ошибка при расчете BTU. Пожалуйста, попробуйте снова.");
+            //    }
+            //}
+            //catch (HttpRequestException ex)
+            //{
+            //    return StatusCode(500, "Ошибка при отправке запроса. Пожалуйста, проверьте соединение и попробуйте снова.");
+            //}
         }
 
 

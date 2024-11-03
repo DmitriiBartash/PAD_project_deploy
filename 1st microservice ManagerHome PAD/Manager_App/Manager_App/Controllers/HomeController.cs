@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Manager_App.Controllers
 {
-    [Authorize]  
+    //[Authorize]  
     public class HomeController : Controller
     {
         // Основная страница

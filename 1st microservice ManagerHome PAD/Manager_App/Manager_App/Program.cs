@@ -10,11 +10,11 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<MongoDbService>();
 builder.Services.AddScoped<ConditionerService>();
 
-// Добавляем сервисы для аутентификации с использованием Cookie Authentication
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Cookie Authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Login/LoginPage"; // Путь к странице входа
+        options.LoginPath = "/Login/LoginPage"; // пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ
         options.LogoutPath = "/Home/Logout";
     });
 
@@ -34,7 +34,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// Добавляем Middleware аутентификации
+// пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Middleware пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseDeveloperExceptionPage();
