@@ -1,0 +1,56 @@
+﻿@model List<Manager_App.Models.ConditionerModel>
+
+@{
+    ViewData["Title"] = "ConditionersHome";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<!-- ======================= Conditioners Section ================== -->
+<div class="details no-grid">
+    <div class="conditionersBTU recentOrders">
+        <div class="cardHeader" style="padding: 5px;">
+            <h2>Conditioners</h2>
+        </div>
+
+        <!-- Search by BTU -->
+        <div class="search-section">
+            <input type="text" id="btuInput" class="btuInput-placeholder" placeholder="Введите BTU" required>
+            <button id="searchButton">Поиск</button>
+        </div>
+
+        <!-- Ошибка при загрузке -->
+        <div id="errorMessage" style="margin: 15px 0px 0px 0px; color: red; display: none;"></div>
+
+        <!-- List of Conditioners -->
+        <div class="conditioner-form" id="conditionersList">
+            @if (Model != null && Model.Count > 0)
+            {
+                <table class="full-width-table">
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td>BTU</td>
+                            <td>Service Area</td>
+                        </tr>
+                    </thead>
+                    <tbody style="font-size: 14px">
+                        @foreach (var conditioner in Model)
+                        {
+                            <tr>
+                                <td><a href="@conditioner.Url" target="_blank">@conditioner.Name</a></td>
+                                <td>@conditioner.Price</td>
+                                <td>@conditioner.BTU</td>
+                                <td>@conditioner.ServiceArea</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p style="margin: 15px 0px; color: red;">No conditioners found. Please try another search.</p>
+            }
+        </div>
+    </div>
+</div>

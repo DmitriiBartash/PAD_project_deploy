@@ -1,0 +1,181 @@
+﻿@model Manager_App.Models.BTUCalculatorViewModel
+
+@{
+    ViewData["Title"] = "BTU Calculator";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="main-content">
+    <!-- ======================= BTU Calculator ================== -->
+    <div class="btu-calculator-card">
+        <div class="btu-card-header">
+            <h2>BTU Calculator</h2>
+        </div>
+
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="validation-summary-errors">
+                <ul>
+                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                </ul>
+            </div>
+        }
+
+        <form id="btuCalculatorForm" onsubmit="return false;">
+            <!-- Основные поля -->
+            <div class="btu-form-group">
+                <label class="btu-label" for="roomSize">Size:</label>
+                <div class="btu-input-group">
+                    <input type="text" id="roomSize" class="btu-input" name="RequestModel.RoomSize" placeholder="Введите размер" value="@Model.RequestModel.RoomSize" required>
+                    <select id="sizeUnit" class="btu-select" name="RequestModel.SizeUnit">
+	                    <option value="square meters" custom-attributes="@(new { selected = Model.RequestModel.SizeUnit == "square meters" ? "selected" : (string)null })">square meters</option>
+	                    <option value="square feet" custom-attributes="@(new { selected = Model.RequestModel.SizeUnit == "square feet" ? "selected" : (string)null })">square feet</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="btu-form-group">
+                <label class="btu-label" for="ceilingHeight">Room Ceiling Height:</label>
+                <div class="btu-input-group">
+                    <input type="text" id="ceilingHeight" class="btu-input" name="RequestModel.CeilingHeight" placeholder="Введите высоту" value="@Model.RequestModel.CeilingHeight" required>
+                    <select id="heightUnit" class="btu-select" name="RequestModel.HeightUnit">
+	                    <option value="meters" custom-attributes="@(new { selected = Model.RequestModel.HeightUnit == "meters" ? "selected" : (string)null })">meters</option>
+	                    <option value="feet" custom-attributes="@(new { selected = Model.RequestModel.HeightUnit == "feet" ? "selected" : (string)null })">feet</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="btu-form-group">
+                <label class="btu-label" for="sunExposure">Sun Exposure (Insulation):</label>
+                <select id="sunExposure" class="btu-select" name="RequestModel.SunExposure" required>
+	                <option value="Low" custom-attributes="@(new { selected = Model.RequestModel.SunExposure == "Low" ? "selected" : (string)null })">Low</option>
+	                <option value="Average" custom-attributes="@(new { selected = Model.RequestModel.SunExposure == "Average" ? "selected" : (string)null })">Average</option>
+	                <option value="High" custom-attributes="@(new { selected = Model.RequestModel.SunExposure == "High" ? "selected" : (string)null })">High</option>
+                </select>
+            </div>
+
+            <div class="btu-form-group">
+                <label class="btu-label" for="peopleCount">Number of People Inside Regularly:</label>
+                <input type="text" id="peopleCount" class="btu-input" name="RequestModel.PeopleCount" placeholder="Введите количество" value="@Model.RequestModel.PeopleCount" required>
+            </div>
+
+            <div class="btu-form-group">
+                <label class="btu-label" for="numberOfComputers">Number of Computers:</label>
+                <input type="text" id="numberOfComputers" class="btu-input" name="RequestModel.NumberOfComputers" placeholder="Введите количество" value="@Model.RequestModel.NumberOfComputers" required>
+            </div>
+
+            <div class="btu-form-group">
+                <label class="btu-label" for="numberOfTVs">Number of TVs:</label>
+                <input type="text" id="numberOfTVs" class="btu-input" name="RequestModel.NumberOfTVs" placeholder="Введите количество" value="@Model.RequestModel.NumberOfTVs" required>
+            </div>
+
+            <div class="btu-form-group">
+                <label class="btu-label" for="otherAppliancesKWattage">Other Appliances Power (kW):</label>
+                <input type="text" id="otherAppliancesKWattage" class="btu-input" name="RequestModel.OtherAppliancesKWattage" placeholder="Введите мощность в кВт" value="@Model.RequestModel.OtherAppliancesKWattage" required>
+            </div>
+
+            <!-- Кнопка для отображения дополнительных параметров -->
+            <button type="button" class="btu-toggle-btn" onclick="toggleParams()">Show Additional Parameters</button>
+
+            <!-- Дополнительные параметры -->
+            <div class="additional-params" id="additionalParams">
+                <div class="btu-form-group">
+                    <label class="btu-label" for="hasVentilation">Has Ventilation:</label>
+                    <select id="hasVentilation" class="btu-select" name="RequestModel.HasVentilation" onchange="toggleVentilation()">
+	                    <option value="false" custom-attributes="@(new { selected = Model.RequestModel.HasVentilation == false ? "selected" : (string)null })">No</option>
+	                    <option value="true" custom-attributes="@(new { selected = Model.RequestModel.HasVentilation == true ? "selected" : (string)null })">Yes</option>
+                    </select>
+                </div>
+
+                <div class="btu-form-group" id="airExchangeRateGroup" style="display: none;">
+                    <label class="btu-label" for="airExchangeRate">Air Exchange Rate:</label>
+                    <input type="text" id="airExchangeRate" class="btu-input" name="RequestModel.AirExchangeRate" placeholder="Введите коэффициент" value="@Model.RequestModel.AirExchangeRate">
+                </div>
+
+                <div class="btu-form-group">
+                    <label class="btu-label" for="guaranteed20Degrees">Guaranteed 20 Degrees:</label>
+                    <select id="guaranteed20Degrees" class="btu-select" name="RequestModel.Guaranteed20Degrees" required>
+	                    <option value="false" custom-attributes="@(new { selected = Model.RequestModel.Guaranteed20Degrees == false ? "selected" : (string)null })">No</option>
+	                    <option value="true" custom-attributes="@(new { selected = Model.RequestModel.Guaranteed20Degrees == true ? "selected" : (string)null })">Yes</option>
+                    </select>
+                </div>
+
+                <div class="btu-form-group">
+                    <label class="btu-label" for="isTopFloor">Is Top Floor:</label>
+                    <select id="isTopFloor" class="btu-select" name="RequestModel.IsTopFloor" required>
+	                    <option value="false" custom-attributes="@(new { selected = Model.RequestModel.IsTopFloor == false ? "selected" : (string)null })">No</option>
+	                    <option value="true" custom-attributes="@(new { selected = Model.RequestModel.IsTopFloor == true ? "selected" : (string)null })">Yes</option>
+                    </select>
+                </div>
+
+                <div class="btu-form-group">
+                    <label class="btu-label" for="hasLargeWindow">Has Large Window:</label>
+                    <select id="hasLargeWindow" class="btu-select" name="RequestModel.HasLargeWindow" onchange="toggleWindowArea()">
+	                    <option value="false" custom-attributes="@(new { selected = Model.RequestModel.HasLargeWindow == false ? "selected" : (string)null })">No</option>
+	                    <option value="true" custom-attributes="@(new { selected = Model.RequestModel.HasLargeWindow == true ? "selected" : (string)null })">Yes</option>
+                    </select>
+                </div>
+
+                <div class="btu-form-group" id="windowAreaGroup" style="display: none;">
+                    <label class="btu-label" for="windowArea">Window Area (m²):</label>
+                    <input type="text" id="windowArea" class="btu-input" name="RequestModel.WindowArea" placeholder="Введите площадь окна" value="@Model.RequestModel.WindowArea">
+                </div>
+            </div>
+
+            <div class="btu-form-buttons">
+                <div class="btu-main-buttons">
+                    <button type="button" class="btu-calculate-btn" onclick="calculateBTU()">Calculate</button>
+                    <button type="button" class="btu-clear-btn" onclick="clearForm()">Clear</button>
+                </div>
+                <button type="button" class="btu-find-btn" onclick="updateConditioners()">Find</button>
+            </div>
+        </form>
+
+        <!-- Результаты расчета -->
+        <div class="btu-result" id="btuResult" style="display:none;">
+            <h3 class="btu-result-header">Calculation Results:</h3>
+            <div class="btu-calculation-results" id="calculationResults"></div>
+        </div>
+    </div>
+
+    <!-- Секция списка кондиционеров -->
+    <div class="conditionersBTU">
+        <div class="cardHeader" style="padding: 5px;">
+            <h2 style="text-align: start;">Conditioners</h2>
+        </div>
+
+        <div class="conditioner-form">
+            @if (Model.ConditionerModels != null && Model.ConditionerModels.Count > 0)
+            {
+                <table class="full-width-table">
+                    <thead>
+                        <tr>
+                            <td>Name</td>
+                            <td>Price</td>
+                            <td>BTU</td>
+                            <td>Service Area</td>
+                        </tr>
+                    </thead>
+                    <tbody style="font-size: 0.9rem;">
+                        @foreach (var conditioner in Model.ConditionerModels)
+                        {
+                            <tr>
+                                <td><a href="@conditioner.Url" target="_blank">@conditioner.Name</a></td>
+                                <td>@conditioner.Price</td>
+                                <td>@conditioner.BTU</td>
+                                <td>@conditioner.ServiceArea</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            }
+            else
+            {
+                <p style="margin: 15px 0px; color: red;">No conditioners found. Please try another search.</p>
+            }
+        </div>
+    </div>
+</div>
