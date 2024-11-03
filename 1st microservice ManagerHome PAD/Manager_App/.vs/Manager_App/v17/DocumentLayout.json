@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|d:\\temp download\\pad_project_1try-main\\1st microservice managerhome pad\\manager_app\\manager_app\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|solutionrelative:manager_app\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|d:\\temp download\\pad_project_1try-main\\1st microservice managerhome pad\\manager_app\\manager_app\\controllers\\findconditionersbtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|solutionrelative:manager_app\\controllers\\findconditionersbtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|d:\\temp download\\pad_project_1try-main\\1st microservice managerhome pad\\manager_app\\manager_app\\controllers\\calculatebtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|solutionrelative:manager_app\\controllers\\calculatebtucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|d:\\temp download\\pad_project_1try-main\\1st microservice managerhome pad\\manager_app\\manager_app\\wwwroot\\js\\btucalculatorelements.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|solutionrelative:manager_app\\wwwroot\\js\\btucalculatorelements.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|d:\\temp download\\pad_project_1try-main\\1st microservice managerhome pad\\manager_app\\manager_app\\models\\btucalculatormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|solutionrelative:manager_app\\models\\btucalculatormodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|d:\\temp download\\pad_project_1try-main\\1st microservice managerhome pad\\manager_app\\manager_app\\views\\calculatebtu\\btucalculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|solutionrelative:manager_app\\views\\calculatebtu\\btucalculator.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|d:\\temp download\\pad_project_1try-main\\1st microservice managerhome pad\\manager_app\\manager_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{007D1F08-210C-4D0A-9C46-3D4A4F2C06E1}|Manager_App\\Manager_App.csproj|solutionrelative:manager_app\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:135:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:134:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Dockerfile",
+              "DocumentMoniker": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Dockerfile",
+              "RelativeDocumentMoniker": "Manager_App\\Dockerfile",
+              "ToolTip": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Dockerfile",
+              "RelativeToolTip": "Manager_App\\Dockerfile",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-03T15:13:41.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FindConditionersBTUController.cs",
+              "DocumentMoniker": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Controllers\\FindConditionersBTUController.cs",
+              "RelativeDocumentMoniker": "Manager_App\\Controllers\\FindConditionersBTUController.cs",
+              "ToolTip": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Controllers\\FindConditionersBTUController.cs",
+              "RelativeToolTip": "Manager_App\\Controllers\\FindConditionersBTUController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACkAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T15:05:37.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BTUCalculatorElements.js",
+              "DocumentMoniker": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\wwwroot\\js\\BTUCalculatorElements.js",
+              "RelativeDocumentMoniker": "Manager_App\\wwwroot\\js\\BTUCalculatorElements.js",
+              "ToolTip": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\wwwroot\\js\\BTUCalculatorElements.js",
+              "RelativeToolTip": "Manager_App\\wwwroot\\js\\BTUCalculatorElements.js",
+              "ViewState": "AQIAACYAAAAAAAAAAAAmwD8AAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-11-03T14:00:52.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CalculateBTUController.cs",
+              "DocumentMoniker": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Controllers\\CalculateBTUController.cs",
+              "RelativeDocumentMoniker": "Manager_App\\Controllers\\CalculateBTUController.cs",
+              "ToolTip": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Controllers\\CalculateBTUController.cs",
+              "RelativeToolTip": "Manager_App\\Controllers\\CalculateBTUController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:00:52.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BTUCalculator.cshtml",
+              "DocumentMoniker": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Views\\CalculateBTU\\BTUCalculator.cshtml",
+              "RelativeDocumentMoniker": "Manager_App\\Views\\CalculateBTU\\BTUCalculator.cshtml",
+              "ToolTip": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Views\\CalculateBTU\\BTUCalculator.cshtml",
+              "RelativeToolTip": "Manager_App\\Views\\CalculateBTU\\BTUCalculator.cshtml",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwAcAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T14:23:10.604Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BTUCalculatorModel.cs",
+              "DocumentMoniker": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Models\\BTUCalculatorModel.cs",
+              "RelativeDocumentMoniker": "Manager_App\\Models\\BTUCalculatorModel.cs",
+              "ToolTip": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Models\\BTUCalculatorModel.cs",
+              "RelativeToolTip": "Manager_App\\Models\\BTUCalculatorModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:00:52.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Manager_App\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\Temp download\\PAD_project_1try-main\\1st microservice ManagerHome PAD\\Manager_App\\Manager_App\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Manager_App\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T14:05:59.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
