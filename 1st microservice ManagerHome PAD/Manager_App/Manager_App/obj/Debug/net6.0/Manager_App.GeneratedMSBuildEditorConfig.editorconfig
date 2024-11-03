@@ -9,51 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Manager_App
 build_property.RootNamespace = Manager_App
-build_property.ProjectDir = D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App
+build_property.MSBuildProjectDirectory = D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/CalculateBTU/BTUCalculator.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/CalculateBTU/BTUCalculator.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FsY3VsYXRlQlRVXEJUVUNhbGN1bGF0b3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/FindConditionersBTU/ConditionersHome.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/FindConditionersBTU/ConditionersHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmluZENvbmRpdGlvbmVyc0JUVVxDb25kaXRpb25lcnNIb21lLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Home/ManagerHome.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Home/ManagerHome.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNYW5hZ2VySG9tZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Home/Privacy.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Register/LoginPage.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Register/LoginPage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJcTG9naW5QYWdlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Shared/Error.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Shared/_Layout.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/_ViewImports.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Temp download/PAD_project_1try-main/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/_ViewStart.cshtml]
+[D:/Programms/4_curs_1_semestr/5.PAD/PAD/1st microservice ManagerHome PAD/Manager_App/Manager_App/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

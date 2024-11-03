@@ -10,10 +10,9 @@ namespace Manager_App.Models
 
         public string Url { get; set; }
         public string Name { get; set; }
-        public decimal Price { get; set; }
-        public int BTU { get; set; }
+        public string Price { get; set; } 
+        public string BTU { get; set; } 
         public string ServiceArea { get; set; }
-
-        public string Hash { get; set; } 
+        public string Hash { get; set; }
     }
 }

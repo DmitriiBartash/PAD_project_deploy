@@ -12,7 +12,7 @@ namespace Manager_App.Services
 
         public ConditionerService(IConfiguration configuration)
         {
-            var client = new MongoClient(configuration.GetConnectionString("MongoDb"));
+            var client = new MongoClient("mongodb://root:example@mongo:27017/");
             var database = client.GetDatabase("ConditionerDatabase");
             _conditionersCollection = database.GetCollection<ConditionerModel>("Conditioners");
         }
@@ -30,10 +30,10 @@ namespace Manager_App.Services
         public async Task<string> GetConditionerHashAsync()
         {
             var conditioner = await _conditionersCollection.Find(_ => true).FirstOrDefaultAsync();
-            return conditioner?.Hash; 
+            return conditioner?.Hash;
         }
 
-        public async Task<List<ConditionerModel>> GetConditionersInRangeAsync(int lowerBTU, int upperBTU)
+        public async Task<List<ConditionerModel>> GetConditionersInRangeAsync(string lowerBTU, string upperBTU)
         {
             var filter = Builders<ConditionerModel>.Filter.Gte(c => c.BTU, lowerBTU) &
                          Builders<ConditionerModel>.Filter.Lte(c => c.BTU, upperBTU);
@@ -51,6 +51,5 @@ namespace Manager_App.Services
             var filter = Builders<ConditionerModel>.Filter.Eq(c => c.Id, ObjectId.Parse(id));
             return await _conditionersCollection.Find(filter).FirstOrDefaultAsync();
         }
-
     }
 }

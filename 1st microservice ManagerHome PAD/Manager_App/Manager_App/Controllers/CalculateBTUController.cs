@@ -45,76 +45,80 @@ namespace Manager_App.Controllers
 
             // Создаем HTTP-клиент
             var client = _httpClientFactory.CreateClient();
-            var url = "https://localhost:7182/api/BTUCalculator"; // URL вашего микросервиса
+            var url = "http://calculator:80/api/BTUCalculator"; // URL вашего микросервиса
 
             // Сериализуем модель в JSON
             var jsonContent = JsonConvert.SerializeObject(requestModel);
             var content = new StringContent(jsonContent, Encoding.UTF8, "application/json");
 
+            try
+            {
+                // Отправляем POST-запрос на микросервис
+                var response = await client.PostAsync(url, content);
 
-            return Ok();
-            //try
-            //{
-            //    // Отправляем POST-запрос на микросервис
-            //    var response = await client.PostAsync(url, content);
+                if (response.IsSuccessStatusCode)
+                {
+                    // Десериализуем ответ в модель BTUResponseModel
+                    var responseString = await response.Content.ReadAsStringAsync();
+                    var responseModel = JsonConvert.DeserializeObject<BTUResponseModel>(responseString);
 
-            //    if (response.IsSuccessStatusCode)
-            //    {
-            //        // Десериализуем ответ в модель BTUResponseModel
-            //        var responseString = await response.Content.ReadAsStringAsync();
-            //        var responseModel = JsonConvert.DeserializeObject<BTUResponseModel>(responseString);
+                    var result = new
+                    {
+                        CalculatedPowerBTU = responseModel.CalculatedPowerBTU,
+                        RecommendedRangeBTU = new
+                        {
+                            Lower = responseModel.RecommendedRangeBTU.Lower,
+                            Upper = responseModel.RecommendedRangeBTU.Upper
+                        },
+                        CalculatedPowerKW = responseModel.CalculatedPowerKW,
+                        RecommendedRangeKW = new
+                        {
+                            Lower = responseModel.RecommendedRangeKW.Lower,
+                            Upper = responseModel.RecommendedRangeKW.Upper
+                        }
+                    };
 
-            //        var result = new
-            //        {
-            //            CalculatedPowerBTU = responseModel.CalculatedPowerBTU,
-            //            RecommendedRangeBTU = new
-            //            {
-            //                Lower = responseModel.RecommendedRangeBTU.Lower,
-            //                Upper = responseModel.RecommendedRangeBTU.Upper
-            //            },
-            //            CalculatedPowerKW = responseModel.CalculatedPowerKW,
-            //            RecommendedRangeKW = new
-            //            {
-            //                Lower = responseModel.RecommendedRangeKW.Lower,
-            //                Upper = responseModel.RecommendedRangeKW.Upper
-            //            }
-            //        };
-
-            //        return Json(result); // Возвращаем результат в формате JSON
-            //    }
-            //    else
-            //    {
-            //        return StatusCode((int)response.StatusCode, "Ошибка при расчете BTU. Пожалуйста, попробуйте снова.");
-            //    }
-            //}
-            //catch (HttpRequestException ex)
-            //{
-            //    return StatusCode(500, "Ошибка при отправке запроса. Пожалуйста, проверьте соединение и попробуйте снова.");
-            //}
+                    return Json(result); // Возвращаем результат в формате JSON
+                }
+                else
+                {
+                    return StatusCode((int)response.StatusCode,
+                        "Ошибка при расчете BTU. Пожалуйста, попробуйте снова.");
+                }
+            }
+            catch (HttpRequestException ex)
+            {
+                return StatusCode(500,
+                    "Ошибка при отправке запроса. Пожалуйста, проверьте соединение и попробуйте снова.");
+            }
         }
 
-
-
-        [HttpPost]
+        [HttpGet]
         public async Task<IActionResult> UpdateConditioners()
         {
             var client = _httpClientFactory.CreateClient();
-            var url = "http://localhost:5000/api/scrape"; // URL Python микросервиса
+            var url = "http://webscrapper:5000/api/cond";
 
             try
             {
                 // Получаем текущую хэш-сумму из базы данных
                 var currentHash = await _conditionerService.GetConditionerHashAsync();
-                // Отправляем запрос на парсинг данных
-                var response = await client.PostAsync(url, null);
+
+                // Отправляем GET-запрос на парсинг данных
+                var response = await client.GetAsync(url); // Изменено на GetAsync
 
                 if (response.IsSuccessStatusCode)
                 {
-                    // Получаем новый хэш-сумму и список кондиционеров
+                    // Получаем ответ в строковом формате
                     var responseString = await response.Content.ReadAsStringAsync();
+
+                    // Логируем ответ от веб-скраппера
+                    Console.WriteLine("Response from web scraper: " + responseString);
+
+                    // Десериализуем ответ
                     var data = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseString);
-                    var newHash = data["hash"].ToString(); // Предположим, что хэш-сумма приходит в поле "hash"
-                    var conditioners = JsonConvert.DeserializeObject<List<ConditionerModel>>(data["conditioners"].ToString());
+                    var newHash = data["hash"].ToString();
+                    var conditioners = JsonConvert.DeserializeObject<List<ConditionerModel>>(data["items"].ToString()); 
 
                     // Проверка на совпадение хэш-сумм
                     if (currentHash == newHash)
@@ -129,7 +133,7 @@ namespace Manager_App.Controllers
                         await _conditionerService.AddConditionerAsync(conditioner);
                     }
 
-                    return Ok("Conditioners updated successfully.");
+                    return Ok(conditioners); // Возвращаем список кондиционеров
                 }
                 else
                 {
@@ -138,9 +142,12 @@ namespace Manager_App.Controllers
             }
             catch (Exception ex)
             {
+                // Логируем исключение
+                Console.WriteLine("Error updating conditioners: " + ex.Message);
                 return StatusCode(500, "Internal server error.");
             }
         }
+
 
     }
 }

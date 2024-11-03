@@ -215,7 +215,7 @@ class WebScr_Darwin:
                 index = 0
 
                 for _td in _tds:
-                    if _td.text(strip=True) == "Мощность БТЕ":
+                    if _td.text(strip=True) == "РњРѕС‰РЅРѕСЃС‚СЊ Р‘РўР•":
                         break
                     index += 1
 
@@ -223,7 +223,7 @@ class WebScr_Darwin:
                     _btu = _tds[index + 1].text(strip=True)
                     if (
                         index + 2 < len(_tds)
-                        and _tds[index + 2].text(strip=True) == "Обслуживаемая площадь"
+                        and _tds[index + 2].text(strip=True) == "РћР±СЃР»СѓР¶РёРІР°РµРјР°СЏ РїР»РѕС‰Р°РґСЊ"
                     ):
                         _serviceArea = _tds[index + 3].text(strip=True)
                         return {
@@ -253,13 +253,16 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    return "<p>Hello, World! It's scrapper</p>"
 
 
 @app.route("/api/cond")
 def getCond():
     cond = WebScr_Conditionere()
     data = asyncio.run(cond.GetConditionere())
+
+    cond1 = WebScr_Darwin()
+    data.extend(asyncio.run(cond1.GetConditionere()))
 
     converted = str(data).encode("utf-8")
     h = hashlib.new("sha256")

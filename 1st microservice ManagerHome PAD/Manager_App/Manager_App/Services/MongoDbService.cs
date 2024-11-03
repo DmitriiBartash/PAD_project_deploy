@@ -10,7 +10,7 @@ namespace Manager_App.Services
 
         public MongoDbService(IConfiguration configuration)
         {
-            var client = new MongoClient(configuration.GetConnectionString("MongoDb"));
+            var client = new MongoClient("mongodb://root:example@mongo:27017/");
             var database = client.GetDatabase("UserDatabase");
             _usersCollection = database.GetCollection<ManagerAccount>("Users");
         }

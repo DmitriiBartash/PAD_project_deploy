@@ -3,21 +3,19 @@ services:
     build: 
       './1st microservice ManagerHome PAD/Manager_App/'
     ports:
-      - "59152:8080"
-      - "59153:8081"
+      - "59150:80"
 
   calculator:
     build: 
       './2nd microservice CalculatorBTU/CalculatorBTU/'
     ports:
-      - "59163:443"
-      - "59164:80"
+      - "59160:80"
 
   webscrapper:
     build: 
-      './web scrapping/'
+      './3rd microservice web scrapping/'
     ports:
-      - "59154:5000"
+      - "59170:5000"
 
   mongo:
     image: 
