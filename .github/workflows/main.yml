@@ -42,14 +42,14 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t dimonprorock03/PAD_project_deploy-managerapp:latest "./1st microservice ManagerHome PAD/Manager_App"
-          docker push dimonprorock03/PAD_project_deploy-managerapp:latest
+          docker build -t dimonprorock03/pad-managerapp:latest "./1st microservice ManagerHome PAD/Manager_App"
+          docker push dimonprorock03/pad-managerapp:latest
 
-          docker build -t myusername/PAD_project_deploy-calculator:latest "./2nd microservice CalculatorBTU/CalculatorBTU"
-          docker push myusername/PAD_project_deploy-calculator:latest
+          docker build -t dimonprorock03/pad-btu-calculator:latest "./2nd microservice CalculatorBTU/CalculatorBTU"
+          docker push dimonprorock03/pad-btu-calculator:latest
 
-          docker build -t myusername/PAD_project_deploy-webscrapper:latest "./3rd microservice web scrapping"
-          docker push myusername/PAD_project_deploy-webscrapper:latest
+          docker build -t myusername/pad-webscrapper:latest "./3rd microservice web scrapping"
+          docker push myusername/pad-webscrapper:latest
 
       - name: Cleanup
         run: |
