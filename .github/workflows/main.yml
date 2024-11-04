@@ -45,9 +45,6 @@ jobs:
           docker build -t dimonprorock03/pad-managerapp:latest "./1st microservice ManagerHome PAD/Manager_App"
           docker push dimonprorock03/pad-managerapp:latest
 
-          docker build -t dimonprorock03/pad-btu-calculator:latest "./2nd microservice CalculatorBTU/CalculatorBTU"
-          docker push dimonprorock03/pad-btu-calculator:latest
-
           docker build -t myusername/pad-webscrapper:latest "./3rd microservice web scrapping"
           docker push myusername/pad-webscrapper:latest
 
