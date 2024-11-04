@@ -1,13 +1,14 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+RUN apt-get update -y && apt-get install -y iputils-ping
 WORKDIR /app
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["Manager_App/Manager_App.csproj", "Manager_App/"]
-RUN dotnet restore "./Manager_App/Manager_App.csproj"
+COPY ["Manager_App.csproj", "."]
+RUN dotnet restore "./Manager_App.csproj"
 COPY . .
-WORKDIR "/src/Manager_App"
+WORKDIR "/src/."
 RUN dotnet build "./Manager_App.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish

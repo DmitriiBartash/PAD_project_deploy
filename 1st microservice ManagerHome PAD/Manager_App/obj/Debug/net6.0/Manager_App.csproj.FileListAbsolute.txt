@@ -1,0 +1,226 @@
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.Development.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.staticwebassets.runtime.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.exe
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.deps.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.runtimeconfig.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.AssemblyReference.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfoInputs.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CoreCompileInputs.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.MvcApplicationPartsAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.Manager_App.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.build.Manager_App.props
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Manager_App.props
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Manager_App.props
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\scopedcss\bundle\Manager_App.styles.css
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\scopedcss\projectbundle\Manager_App.bundle.scp.css
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\refint\Manager_App.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.genruntimeconfig.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome\Manager_App\Manager_App\obj\Debug\net6.0\ref\Manager_App.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.Development.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.staticwebassets.runtime.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.exe
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.deps.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.runtimeconfig.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\DnsClient.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\SharpCompress.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Snappier.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\ZstdSharp.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.AssemblyReference.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfoInputs.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CoreCompileInputs.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.MvcApplicationPartsAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.Manager_App.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.build.Manager_App.props
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Manager_App.props
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Manager_App.props
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\scopedcss\bundle\Manager_App.styles.css
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CopyComplete
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\refint\Manager_App.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.genruntimeconfig.cache
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\ref\Manager_App.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\DevOne.Security.Cryptography.BCrypt.dll
+D:\Programms\4_curs_1_semestr\DIPLOM\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.Development.json
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.json
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.staticwebassets.runtime.json
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.exe
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.deps.json
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.runtimeconfig.json
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.pdb
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\DevOne.Security.Cryptography.BCrypt.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\DnsClient.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\SharpCompress.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Snappier.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\ZstdSharp.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.AssemblyReference.cache
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfoInputs.cache
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfo.cs
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CoreCompileInputs.cache
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.MvcApplicationPartsAssemblyInfo.cache
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cache
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cs
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.build.json
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.development.json
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.Manager_App.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.build.Manager_App.props
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Manager_App.props
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Manager_App.props
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\scopedcss\bundle\Manager_App.styles.css
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_.B60C3F19.Up2Date
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\refint\Manager_App.dll
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.pdb
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.genruntimeconfig.cache
+D:\Temp download\PAD_project_1try-main\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\ref\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.Development.json
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.json
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.staticwebassets.runtime.json
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.exe
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.deps.json
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.runtimeconfig.json
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\DevOne.Security.Cryptography.BCrypt.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\DnsClient.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\SharpCompress.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Snappier.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\ZstdSharp.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.AssemblyReference.cache
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfoInputs.cache
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CoreCompileInputs.cache
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.MvcApplicationPartsAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.Manager_App.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.build.Manager_App.props
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Manager_App.props
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Manager_App.props
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\scopedcss\bundle\Manager_App.styles.css
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CopyComplete
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\refint\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.genruntimeconfig.cache
+D:\Programms\4_curs_1_semestr\5.PAD\git\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\ref\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.Development.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\appsettings.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.staticwebassets.runtime.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.exe
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.deps.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.runtimeconfig.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\DevOne.Security.Cryptography.BCrypt.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\DnsClient.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\SharpCompress.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\Snappier.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\bin\Debug\net6.0\ZstdSharp.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.AssemblyReference.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfoInputs.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CoreCompileInputs.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.MvcApplicationPartsAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.Manager_App.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.build.Manager_App.props
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Manager_App.props
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Manager_App.props
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\scopedcss\bundle\Manager_App.styles.css
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CopyComplete
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\refint\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\Manager_App.genruntimeconfig.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\Manager_App\obj\Debug\net6.0\ref\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\appsettings.Development.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\appsettings.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\Manager_App.staticwebassets.runtime.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\Manager_App.exe
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\Manager_App.deps.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\Manager_App.runtimeconfig.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\DevOne.Security.Cryptography.BCrypt.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\BCrypt.Net-Next.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\DnsClient.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\MongoDB.Bson.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\MongoDB.Driver.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\SharpCompress.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\Snappier.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\bin\Debug\net6.0\ZstdSharp.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.csproj.AssemblyReference.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfoInputs.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.AssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CoreCompileInputs.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.MvcApplicationPartsAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.RazorAssemblyInfo.cs
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.Manager_App.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.build.Manager_App.props
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Manager_App.props
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Manager_App.props
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\staticwebassets.pack.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\staticwebassets.build.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\staticwebassets.development.json
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\scopedcss\bundle\Manager_App.styles.css
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.csproj.CopyComplete
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\refint\Manager_App.dll
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.pdb
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\Manager_App.genruntimeconfig.cache
+D:\Programms\4_curs_1_semestr\5.PAD\PAD\1st microservice ManagerHome PAD\Manager_App\obj\Debug\net6.0\ref\Manager_App.dll

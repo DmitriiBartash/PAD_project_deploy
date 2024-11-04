@@ -1,15 +1,14 @@
 FROM mcr.microsoft.com/dotnet/aspnet:6.0 AS base
+RUN apt-get update -y && apt-get install -y iputils-ping
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 ARG BUILD_CONFIGURATION=Release
 WORKDIR /src
-COPY ["CalculatorBTU/CalculatorBTU.csproj", "CalculatorBTU/"]
-RUN dotnet restore "./CalculatorBTU/CalculatorBTU.csproj"
+COPY ["CalculatorBTU.csproj", "."]
+RUN dotnet restore "./CalculatorBTU.csproj"
 COPY . .
-WORKDIR "/src/CalculatorBTU"
+WORKDIR "/src/."
 RUN dotnet build "./CalculatorBTU.csproj" -c $BUILD_CONFIGURATION -o /app/build
 
 FROM build AS publish

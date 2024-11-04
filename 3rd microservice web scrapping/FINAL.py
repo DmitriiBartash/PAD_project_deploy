@@ -87,11 +87,11 @@ class WebScr_Conditionere:
             _serviceArea = _pcp_rows[2].css_first("div.pcp_value").text(strip=True)
 
             return {
-                "URL": _link,
-                "NAME": _name,
-                "PRICE": _price,
-                "BTU": _BTU,
-                "SERVICE AREA": _serviceArea,
+                "url": "https://conditionere.md" + _link,
+                "name": _name,
+                "price": _price,
+                "btu": _BTU,
+                "serviceArea": _serviceArea,
             }
         except Exception as e:
             print(f"Error in GetProducts:{e}")
@@ -160,7 +160,14 @@ class WebScr_Darwin:
                 page_results = await asyncio.gather(*process_tasks)
 
                 for result in page_results:
-                    results.extend(result)
+                    newArr = result
+                    smt = []
+                    for item in newArr:
+                        if item != None:
+                            smt.append(item)
+
+                    if smt != []:
+                        results.extend(smt)
         except Exception as e:
             print(f"Error in fetch_all_pages: {e}")
         return results
@@ -168,35 +175,30 @@ class WebScr_Darwin:
     async def get_initial_page_data(self):
         """Fetch the first page to determine the total number of pages and get the products on the first page."""
         connector = TCPConnector(limit=100)
-        try:
-            async with aiohttp.ClientSession(connector=connector) as session:
-                url = f"{self.baseUrl}1"
-                page_content = await self.fetch(url, session)
+        async with aiohttp.ClientSession(connector=connector) as session:
+            url = f"{self.baseUrl}1"
+            page_content = await self.fetch(url, session)
 
-                first_page_products = await self.process_page(
-                    page_content, session, url
-                )
+            first_page_products = await self.process_page(page_content, session, url)
 
-                # Extract products from the first page
-                parser = HTMLParser(page_content)
+            # Extract products from the first page
+            parser = HTMLParser(page_content)
 
-                # Find the last page number
-                page_links = parser.css("ul.pagination")
-                li_elements = page_links[0].css("li")
+            # Find the last page number
+            page_links = parser.css("ul.pagination")
+            li_elements = page_links[0].css("li")
 
-                pageNumbers = []
-                for li in li_elements:
-                    a_tag = li.css_first("a")
-                    if a_tag:
-                        try:
-                            pageNumbers.append(int(a_tag.text(strip=True)))
-                        except:
-                            print("error parsing")
-                last_page = max(pageNumbers)
+            pageNumbers = []
+            for li in li_elements:
+                a_tag = li.css_first("a")
+                if a_tag:
+                    try:
+                        pageNumbers.append(int(a_tag.text(strip=True)))
+                    except:
+                        print("error parsing")
+            last_page = max(pageNumbers)
 
-                return first_page_products, last_page
-        except Exception as e:
-            print(f"Error in get_initial_page_data: {e}")
+            return first_page_products, last_page
 
     async def GetProducts(self, product_card, session, url):
         try:
@@ -206,33 +208,42 @@ class WebScr_Darwin:
             _btu = ""
             _serviceArea = ""
 
-            async with session.get(_link, ssl=False) as response:
-                _product_data = await response.text()
-                _product_soup = HTMLParser(_product_data)
+            if "РќРµРґРѕСЃС‚СѓРїРЅРѕ" not in _price:
+                async with session.get(_link, ssl=False) as response:
+                    _product_data = await response.text()
+                    _product_soup = HTMLParser(_product_data)
 
-                # Find all <td> elements
-                _tds = _product_soup.css("td")
-                index = 0
+                    # Find all <td> elements
+                    _tds = _product_soup.css("td")
+                    index = 0
 
-                for _td in _tds:
-                    if _td.text(strip=True) == "РњРѕС‰РЅРѕСЃС‚СЊ Р‘РўР•":
-                        break
-                    index += 1
+                    for _td in _tds:
+                        if _td.text(strip=True) == "РњРѕС‰РЅРѕСЃС‚СЊ Р‘РўР•":
+                            break
+                        index += 1
 
-                if index != len(_tds):
-                    _btu = _tds[index + 1].text(strip=True)
-                    if (
-                        index + 2 < len(_tds)
-                        and _tds[index + 2].text(strip=True) == "РћР±СЃР»СѓР¶РёРІР°РµРјР°СЏ РїР»РѕС‰Р°РґСЊ"
-                    ):
-                        _serviceArea = _tds[index + 3].text(strip=True)
-                        return {
-                            "URL": _link,
-                            "NAME": _name,
-                            "PRICE": _price,
-                            "BTU": _btu,
-                            "SERVICE AREA": _serviceArea,
-                        }
+                    if index != len(_tds):
+                        _btu = _tds[index + 1].text(strip=True)
+                        if (
+                            index + 2 < len(_tds)
+                            and _tds[index + 2].text(strip=True)
+                            == "РћР±СЃР»СѓР¶РёРІР°РµРјР°СЏ РїР»РѕС‰Р°РґСЊ"
+                        ):
+                            _serviceArea = _tds[index + 3].text(strip=True)
+                            if "Рј2" in _serviceArea:
+                                _serviceArea = _serviceArea.replace("Рј2", "")
+                            elif "РјВІ" in _serviceArea:
+                                _serviceArea = _serviceArea.replace("РјВІ", "")
+                            _serviceArea = _serviceArea.strip()
+
+                            return {
+                                "url": _link,
+                                "name": _name,
+                                "price": _price,
+                                "btu": _btu,
+                                "serviceArea": _serviceArea,
+                            }
+                # await asyncio.sleep(0)
         except Exception as e:
             print(f"Error in GetProducts:{e}")
 
@@ -240,7 +251,6 @@ class WebScr_Darwin:
         # get lastPage initially
         initial_products, last_page = await self.get_initial_page_data()
         # get urls
-        print(last_page)
         urls = [f"{self.baseUrl}{i}" for i in range(self.page, last_page + 1)]
         # Fetch and process remaining pages
         remaining_products = await self.fetch_all_pages(urls)
@@ -253,7 +263,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<p>Hello, World! It's scrapper</p>"
+    return "<p>Hello, World! It's the scrapping</p>"
 
 
 @app.route("/api/cond")
@@ -261,8 +271,9 @@ def getCond():
     cond = WebScr_Conditionere()
     data = asyncio.run(cond.GetConditionere())
 
-    cond1 = WebScr_Darwin()
-    data.extend(asyncio.run(cond1.GetConditionere()))
+
+    # cond1 = WebScr_Darwin()
+    # data.extend(asyncio.run(cond1.GetConditionere()))
 
     converted = str(data).encode("utf-8")
     h = hashlib.new("sha256")
@@ -278,7 +289,7 @@ def getCond():
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
+    app.run(host="0.0.0.0", port=5000, debug=True)
 
 
 # cond1 = WebScr_Darwin()
