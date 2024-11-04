@@ -3,7 +3,7 @@ name: CI/CD for ManagerApp Service
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   build:
@@ -18,9 +18,17 @@ jobs:
         with:
           compose-file: "./docker-compose.yml"
 
-      - name: Test connection between front and ytdlp
+      - name: List running containers
         run: |
-          sleep 2  # Give services time to start
+          echo "Running containers:"
+          docker ps -a  # Вывод всех контейнеров
+
+      - name: Wait for services to be ready
+        run: |
+          sleep 10
+
+      - name: Test connection between services
+        run: |
           docker exec PAD_project_deploy_managerapp_1 ping -c 3 PAD_project_deploy_calculator_1 || exit 1
           docker exec PAD_project_deploy_managerapp_1 ping -c 3 PAD_project_deploy_webscrapper_1 || exit 1
           docker exec PAD_project_deploy_managerapp_1 ping -c 3 PAD_project_deploy_mongo_1 || exit 1
