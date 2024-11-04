@@ -1,4 +1,4 @@
-name: CI/CD for Front Service
+name: CI/CD for ManagerApp Service
 
 on:
   push:
