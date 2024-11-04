@@ -47,7 +47,3 @@ jobs:
 
           docker build -t dimonprorock03/pad-webscrapper:latest "./3rd microservice web scrapping"
           docker push dimonprorock03/pad-webscrapper:latest
-
-      - name: Cleanup
-        run: |
-          docker-compose down
