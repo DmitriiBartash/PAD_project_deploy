@@ -17,39 +17,44 @@ namespace Manager_App.Services
             _conditionersCollection = database.GetCollection<ConditionerModel>("Conditioners");
         }
 
+        // Метод для добавления кондиционера
         public async Task AddConditionerAsync(ConditionerModel conditioner)
         {
             await _conditionersCollection.InsertOneAsync(conditioner);
         }
-
-        public async Task<List<ConditionerModel>> GetAllConditionersAsync()
-        {
-            return await _conditionersCollection.Find(_ => true).ToListAsync();
-        }
-
+        // Метод для получения хэш-суммы списка кондиционеров
         public async Task<string> GetConditionerHashAsync()
         {
             var conditioner = await _conditionersCollection.Find(_ => true).FirstOrDefaultAsync();
             return conditioner?.Hash;
         }
 
+        // Метод для получения всех кондиционеров
+        public async Task<List<ConditionerModel>> GetAllConditionersAsync()
+        {
+            return await _conditionersCollection.Find(_ => true).ToListAsync();
+        }
+
+        // Метод для получения кондиционеров по диапазону BTU
         public async Task<List<ConditionerModel>> GetConditionersInRangeAsync(string lowerBTU, string upperBTU)
         {
+            // Применяем фильтр для поиска кондиционеров в заданном диапазоне BTU
             var filter = Builders<ConditionerModel>.Filter.Gte(c => c.BTU, lowerBTU) &
                          Builders<ConditionerModel>.Filter.Lte(c => c.BTU, upperBTU);
             return await _conditionersCollection.Find(filter).ToListAsync();
         }
 
-        public async Task<bool> ConditionerExistsAsync(string id)
-        {
-            var filter = Builders<ConditionerModel>.Filter.Eq(c => c.Id, ObjectId.Parse(id));
-            return await _conditionersCollection.Find(filter).FirstOrDefaultAsync() != null;
-        }
-
-        public async Task<ConditionerModel> GetConditionerAsync(string id)
+        // Метод для получения конкретного кондиционера по ID
+        public async Task<ConditionerModel> GetConditionerByIdAsync(string id)
         {
             var filter = Builders<ConditionerModel>.Filter.Eq(c => c.Id, ObjectId.Parse(id));
             return await _conditionersCollection.Find(filter).FirstOrDefaultAsync();
         }
+
+        public async Task ClearAllConditionersAsync()
+        {
+            await _conditionersCollection.DeleteManyAsync(FilterDefinition<ConditionerModel>.Empty);
+        }
+
     }
 }

@@ -105,7 +105,7 @@ namespace Manager_App.Controllers
                 var currentHash = await _conditionerService.GetConditionerHashAsync();
 
                 // Отправляем GET-запрос на парсинг данных
-                var response = await client.GetAsync(url); // Изменено на GetAsync
+                var response = await client.GetAsync(url);
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -118,19 +118,22 @@ namespace Manager_App.Controllers
                     // Десериализуем ответ
                     var data = JsonConvert.DeserializeObject<Dictionary<string, object>>(responseString);
                     var newHash = data["hash"].ToString();
-                    var conditioners = JsonConvert.DeserializeObject<List<ConditionerModel>>(data["items"].ToString()); 
+                    var conditioners = JsonConvert.DeserializeObject<List<ConditionerModel>>(data["items"].ToString());
 
                     // Проверка на совпадение хэш-сумм
                     if (currentHash == newHash)
                     {
-                        return Ok("No updates needed. Data is up to date.");
+                        return Ok(await _conditionerService.GetAllConditionersAsync()); // Возвращаем кондиционеры из БД
                     }
-
-                    // Сохраняем кондиционеров в БД
-                    foreach (var conditioner in conditioners)
+                    else
                     {
-                        conditioner.Hash = newHash; // Сохраняем новую хэш-сумму
-                        await _conditionerService.AddConditionerAsync(conditioner);
+                        // Если хэш-суммы не совпадают, очищаем коллекцию и добавляем новые кондиционеры
+                        await _conditionerService.ClearAllConditionersAsync(); // Метод для очистки коллекции
+                        foreach (var conditioner in conditioners)
+                        {
+                            conditioner.Hash = newHash; // Сохраняем новую хэш-сумму
+                            await _conditionerService.AddConditionerAsync(conditioner);
+                        }
                     }
 
                     return Ok(conditioners); // Возвращаем список кондиционеров
@@ -147,7 +150,6 @@ namespace Manager_App.Controllers
                 return StatusCode(500, "Internal server error.");
             }
         }
-
 
     }
 }

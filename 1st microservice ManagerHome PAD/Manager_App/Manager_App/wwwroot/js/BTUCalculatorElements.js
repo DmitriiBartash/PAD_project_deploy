@@ -137,15 +137,15 @@ function updateConditioners() {
             conditionerTableBody.innerHTML = ''; // Очищаем таблицу
 
             const noDataMessage = document.getElementById('noDataMessage');
-            if (data && data.length > 0) { // Проверка на наличие данных
+            if (data && data.length > 0) { 
                 noDataMessage.style.display = 'none'; // Скрываем сообщение о том, что нет данных
                 data.forEach(conditioner => {
                     const row = document.createElement('tr');
                     row.innerHTML = `
-                        <td><a href="${conditioner.URL}" target="_blank">${conditioner.NAME}</a></td>
-                        <td>${conditioner.PRICE}</td>
-                        <td>${conditioner.BTU}</td>
-                        <td>${conditioner['SERVICE AREA']}</td>
+                        <td><a href="${conditioner.url}" target="_blank">${conditioner.name}</a></td>
+                        <td>${conditioner.price}</td>
+                        <td>${conditioner.btu}</td>
+                        <td>${conditioner.serviceArea}</td>
                     `;
                     conditionerTableBody.appendChild(row); // Добавляем строку в таблицу
                 });
@@ -167,8 +167,4 @@ function updateConditioners() {
         }
     });
 }
-
-
-
-
 
