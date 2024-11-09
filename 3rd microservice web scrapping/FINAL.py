@@ -271,9 +271,8 @@ def getCond():
     cond = WebScr_Conditionere()
     data = asyncio.run(cond.GetConditionere())
 
-
-    # cond1 = WebScr_Darwin()
-    # data.extend(asyncio.run(cond1.GetConditionere()))
+    cond1 = WebScr_Darwin()
+    data.extend(asyncio.run(cond1.GetConditionere()))
 
     converted = str(data).encode("utf-8")
     h = hashlib.new("sha256")

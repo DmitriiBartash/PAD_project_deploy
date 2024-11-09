@@ -10,11 +10,11 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddSingleton<MongoDbService>();
 builder.Services.AddScoped<ConditionerService>();
 
-// ��������� ������� ��� �������������� � �������������� Cookie Authentication
+// Authentication
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
     {
-        options.LoginPath = "/Login/LoginPage"; // ���� � �������� �����
+        options.LoginPath = "/Login/LoginPage"; 
         options.LogoutPath = "/Home/Logout";
     });
 
@@ -34,7 +34,7 @@ app.UseStaticFiles();
 
 app.UseRouting();
 
-// ��������� Middleware ��������������
+// Middleware
 app.UseAuthentication();
 app.UseAuthorization();
 app.UseDeveloperExceptionPage();
